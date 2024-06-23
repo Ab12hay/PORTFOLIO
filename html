@@ -1,0 +1,145 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible"
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>shiva-Developer Portfolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            body{
+                background-color: rgb(1, 0, 33);
+                color:rgb(255, 255, 255);
+                font-family: 'poppins',sans-serif ;
+            }
+            nav{
+                display: Flex;
+                justify-content: space-around ;
+                align-items: center;
+                height: 97px;
+                background-color: rgb(0, 56, 241);
+            }
+nav ul{
+    display : flex;
+    justify-content: center;
+}
+nav ul li{
+list-style: none;
+margin: 0 30px;
+}
+nav ul li a{
+text-decoration: none;
+color:rgb(149, 51, 51);
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(240, 248, 255);
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size:0.9rem; 
+}
+main hr{
+
+    background:purple;
+    height:1.2;
+    margin: 20px 90px;;
+}
+.left{
+    font-size: 2rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+    
+}
+ .firsySection > div{
+    width: 30%;
+ }
+.leftSection{
+   margin: 100px;
+    font-size: 3rem;
+}
+.rightSection img{
+    width: 400px;
+    margin:30px 0;
+   
+}
+.purple{
+    color: rgb(131, 1, 252);
+}
+#element{
+    color: rgb(131, 1, 252);
+}
+.secondSection{
+    margin:5%  ;
+    font-size: 2.5rem;
+}
+.thirdSection{
+    max-width:70vw;
+    margin:2%;
+    font-size: 1.3rem;
+
+}
+        </style>
+    </head>
+    <body> 
+        <header>
+            <nav>
+                <div class="left">Shiva Portfolio</div>
+                <div class="right">
+                    <ul>
+                 <li><a href="/">Home</a></li>
+                 <li><a href="/">About</a></li>
+                 <li><a href="/">Services</a></li>
+                 <li><a href="/">Projects</a></li>
+                 <li><a href="/">Contact</a></li>
+                         
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        
+        <main>
+       <section class="firstSection">
+    <div class="leftSection">
+                    Hi,My Name Is <span class="purple"> Shiva Mishra</span>
+                    
+                <div>And I Am a passionate </div>
+                
+                <span id="element"></span>
+
+                </div>
+                
+                    <div class="rightSection">
+                        <img src="bg.png"alt="">
+                    </div>
+                </section>
+                <hr >
+                <section class="secondSection">
+                    <h1>DESCRIPTION</h1>
+                    
+            </setion>
+            <section class="thirdSection">
+                <div>I have completed my intermediate from St Joseph College. Now I am pursuing BTech with CSE branch from BBDNITM. My hobbies are coding , web developing , video editing , cricket and basketball . I have interest in application development. I have completed many certification courses from Infosys , TCS , trainers centre and Microsoft.</div>
+        </main>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+              strings: ['WEB DEVELOPER', 'GRAPHIC DESIGNER','WEB DESIGNER','VIDEO EDITOR','APPLICATION DEVELOPER'],
+              typeSpeed: 250,
+            });
+            
+          </script>
+        </body>
+    </body>
+    </html>
+ 
